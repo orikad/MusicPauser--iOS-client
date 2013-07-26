@@ -1,0 +1,7 @@
+MusicPauser iOS client.
+
+Pauses playing iTunes music (on you OS X computer) when you receive a call on your iPhone, automatically resumes it when you end the call.
+
+Uses Apple's Bonjour to work. Requires the MusicPauserServer running on your computer (see in my github repos).
+
+MIT licensed, see LICENSE for more details.
