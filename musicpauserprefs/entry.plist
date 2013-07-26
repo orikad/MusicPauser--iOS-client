@@ -2,8 +2,7 @@
     entry = {
 	bundle = MusicPauser;
 	cell = PSLinkCell;
-	detail = MusicPauserListController;
-	icon = MusicPauser.png;
+	detail = MSPMusicPauserListController;
 	isController = 1;
 	label = MusicPauser;
     };

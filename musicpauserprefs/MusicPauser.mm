@@ -3,7 +3,7 @@
 #import <Foundation/Foundation.h>
 #import <notify.h>
 
-@interface MusicPauserListController : PSViewController <UITableViewDelegate, UITableViewDataSource, NSNetServiceBrowserDelegate>
+@interface MSPMusicPauserListController : PSViewController <UITableViewDelegate, UITableViewDataSource, NSNetServiceBrowserDelegate>
 
 @property (nonatomic, retain) UITableView *tableView;
 @property (nonatomic, retain) NSMutableArray *availableServices;
@@ -20,7 +20,7 @@ static NSString *MSPDictionaryPath()
     return [@"~/Library/Preferences/com.orikad.musicpauser.plist" stringByExpandingTildeInPath];
 }
 
-@implementation MusicPauserListController
+@implementation MSPMusicPauserListController
 
 - (id)init
 {

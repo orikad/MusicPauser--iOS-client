@@ -9,5 +9,5 @@ THEOS_BUILD_DIR = build
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
-SUBPROJECTS += musicpauser
+SUBPROJECTS += musicpauserprefs
 include $(THEOS_MAKE_PATH)/aggregate.mk
